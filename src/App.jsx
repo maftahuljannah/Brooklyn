@@ -8,6 +8,7 @@ import ProjectIdea from './components/ProjectIdea'
 import Blog from './components/Blog'
 import UserExperiance from './components/UserExperiance'
 import HappyClient from './components/HappyClient'
+import Testimonial from './components/Testimonial'
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
    <Blog />
    <UserExperiance/>
    <HappyClient />
+   <Testimonial/>
     </>
   )
 }

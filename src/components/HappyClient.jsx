@@ -11,7 +11,7 @@ const HappyClient = () => {
   const [activeIndex, setActiveIndex] = useState(0); // Track active slide
 
   return (
-    <section className="mt-25 mb-[200px]">
+    <section className="mt-25">
       <div className="container">
         <Heading className="text-center">Happy Clients</Heading>
         <Details className="text-center mt-6 mb-6">

@@ -81,3 +81,23 @@ body{
 	filter: grayscale(0%); /* Active image colorful */
 	transform: scale(1.1); /* Slight zoom effect */
   }
+
+  #testimonial .swiper{
+	padding-bottom: 80px;
+  }
+ #testimonial .swiper-pagination{
+	position: absolute;
+	bottom: 45px;
+ } 
+ #testimonial .swiper-pagination span.swiper-pagination-bullet{
+	background-color: var(--color-gray-200);
+	border-radius: 100px;
+	transition: 0.45s ease;
+ }
+ #testimonial .swiper-pagination  span.swiper-pagination-bullet-active{
+	background-color: var(--color-primary-900);
+	height: 8px;
+	width: 30px;
+	
+ }
+ 
