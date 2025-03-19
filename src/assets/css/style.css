@@ -43,3 +43,41 @@ body{
 	box-shadow: 0 12px 64px 0 rgba(28, 25, 25, 0.12);
 
 }
+.shadow-blog{
+	box-shadow: 0 12px 64px 0 rgba(28, 25, 25, 0.20);
+}
+
+.blog-section {
+	background: linear-gradient(to right, #fdeff4, #e6f7f7);
+  }
+  
+  #blogs .swiper{
+	padding-bottom: 132px;
+  }
+ #blogs .swiper-pagination{
+	position: absolute;
+	bottom: 45px;
+ } 
+ #blogs .swiper-pagination span.swiper-pagination-bullet{
+	background-color: var(--color-gray-200);
+	border-radius: 100px;
+	transition: 0.45s ease;
+ }
+ #blogs .swiper-pagination  span.swiper-pagination-bullet-active{
+	background-color: var(--color-primary-900);
+	height: 8px;
+	width: 30px;
+	
+ }
+ .userExperiance-shadow{
+	box-shadow: 0 32px 96px 0 rgba(28, 25, 25, 0.16);
+ }
+ .client-logo {
+	width: 100px; /* Image size */
+	filter: grayscale(100%); /* Default grayscale */
+	transition: filter 0.3s ease-in-out, transform 0.3s;
+  }
+  .client-logo.active {
+	filter: grayscale(0%); /* Active image colorful */
+	transform: scale(1.1); /* Slight zoom effect */
+  }

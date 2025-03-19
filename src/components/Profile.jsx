@@ -40,11 +40,11 @@ const Profile = () => {
 
   return (
     <section id='profileArea' className='mt-[50px] lg:mt-[212px] relative z-10 '>
-      <div className="container ">
-        <div className="shadow-custom lg:p-[112px] bg-white grid gap-[70px] lg:gap-[136px] lg:grid-cols-2 items-center rounded-2xl">
+      <div className="container relative transform translate-y-[20px] lg:translate-y-[72px]">
+        <div className="shadow-custom lg:p-[112px] bg-white grid gap-[70px] lg:gap-[136px] lg:grid-cols-2 items-center rounded-2xl ">
 
 <div className="profileImage relative">
-<img src="/public/images/Image.png" className='w-full' alt="" />
+<img src="/public/Image.png" className='w-full' alt="" />
 {/* social icon */}
 <div className="flex w-full max-w-[264px] shadow-social justify-center p-3 rounded-sm
 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white ">

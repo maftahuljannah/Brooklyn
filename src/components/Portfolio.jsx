@@ -2,46 +2,47 @@ import React from 'react';
 import Heading from './utils/Heading';
 import Details from './utils/Details';
 import PortfolioCard from './utils/PortfolioCard';
+import PrimaryButton from './utils/primaryButton';
 
 const portfolioData = [
   {
     id: 1,
-    image: '/public/images/p-1.png',
+    image: '/public/p-1.png',
     category: 'UI-UX DESIGN',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 2,
-    image: '/public/images/p-2.png',
+    image: '/public/p-2.png',
     category: 'Web Development',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 3,
-    image: '/public/images/p-3.png',
+    image: '/public/p-3.png',
     category: 'Mobile App',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 4,
-    image: '/public/images/p-4.png',
+    image: '/public/p-4.png',
     category: 'Branding',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 5,
-    image: '/public/images/p-5.png',
+    image: '/public/p-5.png',
     category: 'Graphic Design',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 6,
-    image: '/public/images/p-6.png',
+    image: '/public/p-6.png',
     category: 'Marketing',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
@@ -63,6 +64,9 @@ const Portfolio = () => {
             <PortfolioCard key={item.id} data={item} />
           ))}
         </div>
+
+<PrimaryButton className='flex justify-center items-center m-auto mt-[62px] mb-[100px]'>More Project</PrimaryButton>
+
       </div>
     </section>
   );
