@@ -35,14 +35,18 @@ const Testimonial = () => {
         </Details>
         
         <Swiper
-  modules={[Pagination, Autoplay]}
-  spaceBetween={30}
-  slidesPerView={1}
-  loop={true}
-  loopAdditionalSlides={testimonials.length} 
-  pagination={{ clickable: true }}
-  autoplay={{ delay: 3000 }}
-  className="mt-10 max-w-3xl mx-auto"
+   modules={[Autoplay, Pagination]}
+    spaceBetween={24}
+    slidesPerView={1}
+    loop={true}
+    autoplay={{
+      delay: 2500, 
+    }}
+    pagination={{
+      enabled: true,
+      clickable: true,
+    }}
+    className="mt-10 max-w-3xl mx-auto"
 >
 
           {testimonials.map((testimonial, index) => (
