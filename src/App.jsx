@@ -9,6 +9,8 @@ import Blog from './components/Blog'
 import UserExperiance from './components/UserExperiance'
 import HappyClient from './components/HappyClient'
 import Testimonial from './components/Testimonial'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 function App() {
   return (
     <>
@@ -22,6 +24,8 @@ function App() {
    <UserExperiance/>
    <HappyClient />
    <Testimonial/>
+   <Contact/>
+   <Footer/>
     </>
   )
 }

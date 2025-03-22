@@ -100,4 +100,8 @@ body{
 	width: 30px;
 	
  }
+ #contact .shadowContact{
+	box-shadow: 0 59px 124px 0 rgba(0, 0, 0, 0.12);
+
+ }
  
