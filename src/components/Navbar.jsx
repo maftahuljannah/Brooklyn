@@ -2,15 +2,16 @@ import React, { useState } from 'react';
 import PrimaryButton from './utils/primaryButton';
 import { IoMenu } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const menuLinks = [
-    { title: "Home", url: '#' },
-    { title: "About", url: '#' },
-    { title: "Process", url: '#' },
-    { title: "Portfolio", url: '#' },
-    { title: "Blog", url: '#' },
-    { title: "Services", url: '#' },
+    { title: "Home", url: '/' },
+    { title: "About", url: '/about' },
+    { title: "Process", url: '/process' },
+    { title: "Portfolio", url: '/portfolio' },
+    { title: "Blog", url: '/blog' },
+    { title: "Services", url: '/services' },
   ];
 
   const [active, setActive] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <div className="logo">
-          <a href="#"><img src="/public/logo (1).png" alt="Logo" className='max-w-full' /></a>
+          <a href="#"><img src="/logo (1).png" alt="Logo" className='max-w-full' /></a>
         </div> 
 
         {/* Menu */}
@@ -37,12 +38,19 @@ const Navbar = () => {
 
             {menuLinks.map((link, index) => (
               <li key={index}>
-                <a className='font-medium leading-[150%] text-[#333] my-3 inline-block' href={link.url}>{link.title}</a>
+               
+              <Link  className='font-medium leading-[150%] text-[#333] my-3 inline-block' to={link.url}>{link.title}</Link>
+              
               </li>
+
+
             ))}
-            <li>
-              <PrimaryButton url='#'>Contact</PrimaryButton>
-            </li>
+          <li>
+      <Link to="/contact">
+      <PrimaryButton>Contact</PrimaryButton>
+      </Link>
+      </li>
+
           </ul>
         </div>  
 
