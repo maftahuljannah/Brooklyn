@@ -7,42 +7,42 @@ import PrimaryButton from './utils/primaryButton';
 const portfolioData = [
   {
     id: 1,
-    image: '/public/p-1.png',
+    image: '/p-1.png',
     category: 'UI-UX DESIGN',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 2,
-    image: '/public/p-2.png',
+    image: '/p-2.png',
     category: 'Web Development',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 3,
-    image: '/public/p-3.png',
+    image: '/p-3.png',
     category: 'Mobile App',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 4,
-    image: '/public/p-4.png',
+    image: '/p-4.png',
     category: 'Branding',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 5,
-    image: '/public/p-5.png',
+    image: '/p-5.png',
     category: 'Graphic Design',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'
   },
   {
     id: 6,
-    image: '/public/p-6.png',
+    image: '/p-6.png',
     category: 'Marketing',
     title: 'Product Admin Dashboard',
     description: 'Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.'

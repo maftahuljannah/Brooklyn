@@ -13,7 +13,7 @@ const Blog = () => {
     const blogobj = [
       {
         id:'1',
-        image: '/public/blog-1.png',
+        image: '/blog-1.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',
@@ -21,7 +21,7 @@ const Blog = () => {
       },
       {
         id:'2',
-        image: '/public/blog-2.png',
+        image: '/blog-2.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',
@@ -29,7 +29,7 @@ const Blog = () => {
       },
       {
         id:'3',
-        image: '/public/blog-3.png',
+        image: '/blog-3.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',
@@ -37,7 +37,7 @@ const Blog = () => {
       },
       {
         id:'4',
-        image: '/public/blog-4.png',
+        image: '/blog-4.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',
@@ -45,7 +45,7 @@ const Blog = () => {
       },
       {
         id:'5',
-        image: '/public/blog-1.png',
+        image: '/blog-1.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',
@@ -53,7 +53,7 @@ const Blog = () => {
       },
       {
         id:'6',
-        image: '/public/blog-2.png',
+        image: '/blog-2.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',
@@ -61,7 +61,7 @@ const Blog = () => {
       },
       {
         id:'7',
-        image: '/public/blog-3.png',
+        image: '/blog-3.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',
@@ -69,7 +69,7 @@ const Blog = () => {
       },
       {
         id:'8',
-        image: '/public/blog-4.png',
+        image: '/blog-4.png',
         title: '22 Oct, 2020/246 Comments',
         details: 'Lorem ipsum dolor sit consea. Nulla purus arcu',
         url:'#',

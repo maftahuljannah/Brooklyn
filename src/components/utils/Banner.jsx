@@ -20,7 +20,7 @@ Brooklyn Gilbert</h1>
 
 
 <div className="bannerImg order-first lg:order-last">
-<img src="/public/banner-1.png" alt="#" className='max-w-3/4 lg-mx-w-full mx-auto lg:ms-auto'/>
+<img src="/banner-1.png" alt="#" className='max-w-3/4 lg-mx-w-full mx-auto lg:ms-auto'/>
 </div>
       </div>
     </section>
