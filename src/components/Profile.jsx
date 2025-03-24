@@ -44,7 +44,7 @@ const Profile = () => {
         <div className="shadow-custom lg:p-[112px] bg-white grid gap-[70px] lg:gap-[136px] lg:grid-cols-2 items-center rounded-2xl ">
 
 <div className="profileImage relative">
-<img src="/public/Image.png" className='w-full' alt="" />
+<img src="/banner-2.png" className='w-full' alt="" />
 {/* social icon */}
 <div className="flex w-full max-w-[264px] shadow-social justify-center p-3 rounded-sm
 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white ">

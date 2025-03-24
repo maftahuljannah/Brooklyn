@@ -24,12 +24,12 @@ const WorkProcess = () => {
           {/* First Row */}
           <div className="firstrow grid gap-6">
             <WorkProcessCard 
-              icon="/public/fram-1.png"
+              icon="/fram-1.png"
               title="1. Research"
               detail="I conduct thorough research to understand your needs and audience."
             />
             <WorkProcessCard 
-              icon="/public/fram-2.png"
+              icon="/fram-2.png"
               title="2. Analyze"
               detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
             />
@@ -38,12 +38,12 @@ const WorkProcess = () => {
           {/* Second Row */}
           <div className="lastrow grid gap-6 mt-6">
             <WorkProcessCard 
-              icon="/public/fram-3.png"
+              icon="/fram-3.png"
               title="3. Design"
               detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
             />
             <WorkProcessCard 
-              icon="/public/fram-4.png"
+              icon="/fram-4.png"
               title="4. Launch"
               detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
             />
