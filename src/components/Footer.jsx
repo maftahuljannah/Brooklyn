@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-0">
         {/* Logo */}
         <div className="flex items-center gap-4">
-          <img src="/public/footerLogo.png" alt="Logo" className="w-[160px] lg:w-[208px] h-[40px] lg:h-[56px]" />
+          <img src="/footerLogo.png" alt="Logo" className="w-[160px] lg:w-[208px] h-[40px] lg:h-[56px]" />
         </div>
 
         {/* Navigation Links */}
